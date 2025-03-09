@@ -1,0 +1,20 @@
+@import "tailwindcss";
+:root {
+  --main-color: #ff735c;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('./assets/RobotoCondensed-Regular.ttf');
+}
+body{ 
+  font-family: roboto;
+}
+
+.car-features div:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+.car-features div:nth-child(even) {
+  background-color: var(--main-color);
+  color: white;
+}
